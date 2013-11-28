@@ -1,0 +1,19 @@
+{
+    "name": "frameworks/finediff",
+    "type": "package",
+    "description": "Lib zum vergleichen 2er Textdateien",
+    "homepage": "http://repo.dreiwerken.intern/frameworks/finediff",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@repo.dreiwerken.intern:frameworks/finediff.git"
+        }
+
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
